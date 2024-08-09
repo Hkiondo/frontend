@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  nav {
+    background-color: #0044cc;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    margin-right: 15px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  button {
+    background-color: #0044cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0033aa;
+  }
+  
+  /* High Contrast Mode */
+  .high-contrast body {
+    background-color: black;
+    color: white;
+  }
+  
+  .high-contrast nav {
+    background-color: black;
+  }
+  
+  .high-contrast .container {
+    background-color: black;
+    color: white;
+  }
+  
+  .high-contrast button {
+    background-color: yellow;
+    color: black;
+  }
